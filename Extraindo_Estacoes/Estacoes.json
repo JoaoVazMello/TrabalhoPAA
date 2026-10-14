@@ -1,0 +1,1198 @@
+[
+    {
+        "Estacao":"Abbesses",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Alésia",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Alexandre Dumas",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Alma – Marceau",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Anatole France",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Anvers",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Argentine",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Arts et Métiers",
+        "Linha":"3 & 11"
+    },
+    {
+        "Estacao":"Asnières – Gennevilliers – Les Courtilles",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Assemblée Nationale",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Aubervilliers – Pantin – Quatre Chemins",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Avenue Émile Zola",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Avron",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Bagneux",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Balard",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Barbès – Rochechouart",
+        "Linha":"2 & 4"
+    },
+    {
+        "Estacao":"Basilique de Saint-Denis",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Bastille",
+        "Linha":"1, 5, 8"
+    },
+    {
+        "Estacao":"Bel-Air",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Belleville",
+        "Linha":"2 & 11"
+    },
+    {
+        "Estacao":"Bérault",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Bercy",
+        "Linha":"6 & 14"
+    },
+    {
+        "Estacao":"Bibliothèque François Mitterrand",
+        "Linha":"14"
+    },
+    {
+        "Estacao":"Billancourt",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Bir-Hakeim",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Blanche",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Bobigny – Pablo Picasso",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Boissière",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Bolivar",
+        "Linha":"7bis"
+    },
+    {
+        "Estacao":"Bonne Nouvelle",
+        "Linha":"8 & 9"
+    },
+    {
+        "Estacao":"Botzaris",
+        "Linha":"7bis"
+    },
+    {
+        "Estacao":"Boulogne – Jean Jaurès",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Boulogne – Pont de Saint-Cloud",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Boucicaut",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Bourse",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Bréguet – Sabin",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Brochant",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Buttes Chaumont",
+        "Linha":"7bis"
+    },
+    {
+        "Estacao":"Buzenval",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Cadet",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Cambronne",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Campo Formio",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Cardinal Lemoine",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Carrefour Pleyel",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Censier – Daubenton",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Champs-Élysées – Clemenceau",
+        "Linha":"1 & 13"
+    },
+    {
+        "Estacao":"Chardon Lagache",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Charenton – Écoles",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Charles de Gaulle – Étoile",
+        "Linha":"1, 2, 6"
+    },
+    {
+        "Estacao":"Charles Michels",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Charonne",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Château d'Eau",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Château de Vincennes",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Château-Landon",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Château Rouge",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Châtelet",
+        "Linha":"1, 4, 7,11, 14"
+    },
+    {
+        "Estacao":"Châtillon – Montrouge",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Chaussée d'Antin – La Fayette",
+        "Linha":"7 & 9"
+    },
+    {
+        "Estacao":"Chemin Vert",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Chevaleret",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Cité",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Cluny – La Sorbonne",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Colonel Fabien",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Commerce",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Concorde",
+        "Linha":"1, 8,12"
+    },
+    {
+        "Estacao":"Convention",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Corentin Cariou",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Corentin Celton",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Corvisart",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Cour Saint-Émilion",
+        "Linha":"14"
+    },
+    {
+        "Estacao":"Courcelles",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Couronnes",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Créteil – L'Échat",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Créteil – Préfecture",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Créteil – Université",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Crimée",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Croix de Chavaux",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Danube",
+        "Linha":"7bis"
+    },
+    {
+        "Estacao":"Daumesnil",
+        "Linha":"6 & 8"
+    },
+    {
+        "Estacao":"Denfert-Rochereau",
+        "Linha":"4 & 6"
+    },
+    {
+        "Estacao":"Dugommier",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Dupleix",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Duroc",
+        "Linha":"6 & 10"
+    },
+    {
+        "Estacao":"École Militaire",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"École Vétérinaire de Maisons-Alfort",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Edgar Quinet",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Église d'Auteuil",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Église de Pantin",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Esplanade de La Défense",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Étienne Marcel",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Europe",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Exelmans",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Faidherbe – Chaligny",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Falguière",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Félix Faure",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Filles du Calvaire",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Fort d'Aubervilliers",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Franklin D. Roosevelt",
+        "Linha":"1 & 9"
+    },
+    {
+        "Estacao":"Gabriel Péri",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Gaîté",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Gallieni",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Gambetta",
+        "Linha":"3 &3bis"
+    },
+    {
+        "Estacao":"Gare d'Austerlitz",
+        "Linha":"5 & 10"
+    },
+    {
+        "Estacao":"Gare de l'Est",
+        "Linha":"4, 5, 7"
+    },
+    {
+        "Estacao":"Gare de Lyon",
+        "Linha":"1, 14"
+    },
+    {
+        "Estacao":"Gare du Nord",
+        "Linha":"4, 5"
+    },
+    {
+        "Estacao":"George V",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Glacière",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Goncourt",
+        "Linha":"11"
+    },
+    {
+        "Estacao":"Grands Boulevards",
+        "Linha":"8 & 9"
+    },
+    {
+        "Estacao":"Guy Môquet",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Havre – Caumartin",
+        "Linha":"3 & 9"
+    },
+    {
+        "Estacao":"Hoche",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Hôtel de Ville",
+        "Linha":"1, 9,11"
+    },
+    {
+        "Estacao":"Invalides",
+        "Linha":"8, 13"
+    },
+    {
+        "Estacao":"Jacques Bonsergent",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Jasmin",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Jaurès",
+        "Linha":"2, 5,7bis"
+    },
+    {
+        "Estacao":"Javel – André Citroën",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Jourdain",
+        "Linha":"11"
+    },
+    {
+        "Estacao":"Jules Joffrin",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Jussieu",
+        "Linha":"7, 10"
+    },
+    {
+        "Estacao":"Kléber",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"La Chapelle",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"La Courneuve – 8 Mai 1945",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"La Défense – Grande Arche",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"La Fourche",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"La Motte-Picquet – Grenelle",
+        "Linha":"6, 8,10"
+    },
+    {
+        "Estacao":"La Muette",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"La Tour-Maubourg",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Lamarck – Caulaincourt",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Laumière",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Le Kremlin-Bicêtre",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Le Peletier",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Ledru-Rollin",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Les Agnettes",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Les Gobelins",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Les Halles",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Les Sablons",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Liberté",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Liège",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Louis Blanc",
+        "Linha":"7 &7bis"
+    },
+    {
+        "Estacao":"Louise Michel",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Lourmel",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Louvre – Rivoli",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Mabillon",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Madeleine",
+        "Linha":"8, 12,14"
+    },
+    {
+        "Estacao":"Mairie d'Issy",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Mairie d'Ivry",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Mairie de Clichy",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Mairie de Montreuil",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Mairie de Montrouge",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Mairie de Saint-Ouen",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Mairie des Lilas",
+        "Linha":"11"
+    },
+    {
+        "Estacao":"Maison Blanche",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Maisons-Alfort – Les Juilliottes",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Maisons-Alfort – Stade",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Malakoff – Plateau de Vanves",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Malakoff – Rue Étienne Dolet",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Malesherbes",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Maraîchers",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Marcadet – Poissonniers",
+        "Linha":"4 & 12"
+    },
+    {
+        "Estacao":"Marcel Sembat",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Marx Dormoy",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Maubert-Mutualité",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Ménilmontant",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Michel Bizot",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Michel-Ange – Auteuil",
+        "Linha":"9 & 10"
+    },
+    {
+        "Estacao":"Michel-Ange – Molitor",
+        "Linha":"9 & 10"
+    },
+    {
+        "Estacao":"Mirabeau",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Miromesnil",
+        "Linha":"9 & 13"
+    },
+    {
+        "Estacao":"Monceau",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Montgallet",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Montparnasse – Bienvenüe",
+        "Linha":"4, 6,12, 13"
+    },
+    {
+        "Estacao":"Mouton-Duvernet",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Nation",
+        "Linha":"1, 2, 6,9"
+    },
+    {
+        "Estacao":"Nationale",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Notre-Dame-de-Lorette",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Notre-Dame-des-Champs",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Oberkampf",
+        "Linha":"5 & 9"
+    },
+    {
+        "Estacao":"Odéon",
+        "Linha":"4 & 10"
+    },
+    {
+        "Estacao":"Olympiades",
+        "Linha":"14"
+    },
+    {
+        "Estacao":"Opéra",
+        "Linha":"7 & 8"
+    },
+    {
+        "Estacao":"Ourcq",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Palais Royal – Musée du Louvre",
+        "Linha":"1 & 7"
+    },
+    {
+        "Estacao":"Parmentier",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Passy",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Pasteur",
+        "Linha":"6 & 12"
+    },
+    {
+        "Estacao":"Pelleport",
+        "Linha":"3bis"
+    },
+    {
+        "Estacao":"Père Lachaise",
+        "Linha":"2 & 3"
+    },
+    {
+        "Estacao":"Pereire",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Pernety",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Philippe Auguste",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Picpus",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Pierre et Marie Curie",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Pigalle",
+        "Linha":"2 & 12"
+    },
+    {
+        "Estacao":"Place d'Italie",
+        "Linha":"5, 6, 7"
+    },
+    {
+        "Estacao":"Place de Clichy",
+        "Linha":"2 & 13"
+    },
+    {
+        "Estacao":"Place des Fêtes",
+        "Linha":"7bis &11"
+    },
+    {
+        "Estacao":"Place Monge",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Plaisance",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Pointe du Lac",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Poissonnière",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Pont de Levallois – Bécon",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Pont de Neuilly",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Pont de Sèvres",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Pont Marie",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Pont Neuf",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Porte d'Auteuil",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Porte d'Italie",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Porte d'Ivry",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Porte d'Orléans",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Porte Dauphine",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Porte de Bagnolet",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Porte de Champerret",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Porte de Charenton",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Porte de Choisy",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Porte de Clichy",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Porte de Clignancourt",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Porte de la Chapelle",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Porte de la Villette",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Porte de Montreuil",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Porte de Pantin",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Porte de Saint-Cloud",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Porte de Saint-Ouen",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Porte de Vanves",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Porte de Versailles",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Porte de Vincennes",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Porte des Lilas",
+        "Linha":"3bis &11"
+    },
+    {
+        "Estacao":"Porte Dorée",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Porte Maillot",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Pré Saint-Gervais",
+        "Linha":"7bis"
+    },
+    {
+        "Estacao":"Pyramides",
+        "Linha":"7 & 14"
+    },
+    {
+        "Estacao":"Pyrénées",
+        "Linha":"11"
+    },
+    {
+        "Estacao":"Quai de la Gare",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Quai de la Rapée",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Quatre-Septembre",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Rambuteau",
+        "Linha":"11"
+    },
+    {
+        "Estacao":"Ranelagh",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Raspail",
+        "Linha":"4 & 6"
+    },
+    {
+        "Estacao":"Réaumur – Sébastopol",
+        "Linha":"3 & 4"
+    },
+    {
+        "Estacao":"Rennes",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"République",
+        "Linha":"3, 5, 8,9, 11"
+    },
+    {
+        "Estacao":"Reuilly – Diderot",
+        "Linha":"1 & 8"
+    },
+    {
+        "Estacao":"Richard-Lenoir",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Richelieu – Drouot",
+        "Linha":"8 & 9"
+    },
+    {
+        "Estacao":"Riquet",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Robespierre",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Rome",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Rue de la Pompe",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Rue des Boulets",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Rue du Bac",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Rue Saint-Maur",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Saint-Ambroise",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Saint-Augustin",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Saint-Denis – Porte de Paris",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Saint-Denis – Université",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Saint-Fargeau",
+        "Linha":"3bis"
+    },
+    {
+        "Estacao":"Saint-François-Xavier",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Saint-Germain-des-Prés",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Saint-Georges",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Saint-Jacques",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Saint-Lazare",
+        "Linha":"3, 12,13, 14"
+    },
+    {
+        "Estacao":"Saint-Mandé",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Saint-Marcel",
+        "Linha":"5"
+    },
+    {
+        "Estacao":"Saint-Michel",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Saint-Paul",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Saint-Philippe du Roule",
+        "Linha":"9"
+    },
+    {
+        "Estacao":"Saint-Placide",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Saint-Sébastien – Froissart",
+        "Linha":"8"
+    },
+    {
+        "Estacao":"Saint-Sulpice",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Ségur",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Sentier",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Sèvres – Babylone",
+        "Linha":"10 &12"
+    },
+    {
+        "Estacao":"Sèvres – Lecourbe",
+        "Linha":"6"
+    },
+    {
+        "Estacao":"Simplon",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Solférino",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Stalingrad",
+        "Linha":"2, 5, 7"
+    },
+    {
+        "Estacao":"Strasbourg – Saint-Denis",
+        "Linha":"4, 8, 9"
+    },
+    {
+        "Estacao":"Sully – Morland",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Télégraphe",
+        "Linha":"11"
+    },
+    {
+        "Estacao":"Temple",
+        "Linha":"3"
+    },
+    {
+        "Estacao":"Ternes",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Tolbiac",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Trinité – d'Estienne d'Orves",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Trocadéro",
+        "Linha":"6 & 9"
+    },
+    {
+        "Estacao":"Tuileries",
+        "Linha":"1"
+    },
+    {
+        "Estacao":"Vaneau",
+        "Linha":"10"
+    },
+    {
+        "Estacao":"Varenne",
+        "Linha":"13"
+    },
+    {
+        "Estacao":"Vaugirard",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Vavin",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Verdun-Sud",
+        "Linha":"4"
+    },
+    {
+        "Estacao":"Victor Hugo",
+        "Linha":"2"
+    },
+    {
+        "Estacao":"Villejuif – Léo Lagrange",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Villejuif – Louis Aragon",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Villejuif – Paul Vaillant-Couturier",
+        "Linha":"7"
+    },
+    {
+        "Estacao":"Villiers",
+        "Linha":"2 & 3"
+    },
+    {
+        "Estacao":"Volontaires",
+        "Linha":"12"
+    },
+    {
+        "Estacao":"Voltaire",
+        "Linha":"9"
+    }
+]
