@@ -72,14 +72,15 @@ O que deve ser implementado é uma interface que deve ser totalmente gráfica e 
 
 **(b) O grupo deverá gerar o arquivo correspondente às linhas segundo o critério N=(soma dos números de matrícula do grupo) mod 5. Apenas as estações que sirvam 2 ou mais linhas, além das estações de início e fim das linhas precisam ser incluídas:**
 
-1. N=0: 1,2,4,6,7,9,10,11,12,14
+1. Linhas Do Trabalho
+   N=0: 1,2,4,6,7,9,10,11,12,14
    N=1: 1,2,3,4,6,9,11,12,13,14
    N=2: 1,2,4,5,6,7,8,9,11,14
    N=3: 1,2,3,4,5,6,8,10,12,13
    N=4: 1,2,4,5,6,7,9,10,12,13
 
-2. N=1: 1,2,3,4,6,9,11,12,13,14 essa e a linha que vamos utilizar
-
+2. Linha Utilizada:
+   N=1: 1,2,3,4,6,9,11,12,13,14
 
 
 </span>

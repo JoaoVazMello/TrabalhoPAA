@@ -1,0 +1,29 @@
+Versao do brute force
+
+max = 0
+
+main(
+    contador = 1 // vai ser igual a 1 pois ja conta a primeira estacao
+    inicial = raiz //escolhida pelo usuario
+    atual = inicial
+    visitados[] = 0 // todas as posicoes recebendo 0
+    visitados[inicial] = 1
+    Busca(atual, inicial, visitado, contador)
+)
+
+busca(atual, inicial, visitado, contador){
+    if(atual possui aresta para o inicial){
+        if(contador > max E contador > 2){
+            max = contador
+        }
+    }
+
+    para cada vizinho de atual:
+    se visitado[vizinho] == 0:
+        visitado[vizinho] = 1
+        Busca(vizinho, inicial, visitado, contador + 1)
+        visitado[vizinho] = 0
+}
+
+Versao do breach and bound
+

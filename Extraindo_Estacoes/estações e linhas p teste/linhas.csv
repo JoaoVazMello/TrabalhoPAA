@@ -1,9 +1,0 @@
-origem,destino,cor_da_linha
-1,2,Azul
-2,3,Azul
-1,4,Verde
-4,5,Verde
-2,5,Amarela
-5,3,Amarela
-4,6,Vermelha
-5,6,Vermelha

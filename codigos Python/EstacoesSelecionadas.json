@@ -1,0 +1,300 @@
+[
+    {
+        "Estacao": "Arts et Métiers",
+        "Linha": [
+            "3",
+            "11"
+        ]
+    },
+    {
+        "Estacao": "Asnières – Gennevilliers – Les Courtilles",
+        "Linha": [
+            "13"
+        ]
+    },
+    {
+        "Estacao": "Barbès – Rochechouart",
+        "Linha": [
+            "2",
+            "4"
+        ]
+    },
+    {
+        "Estacao": "Belleville",
+        "Linha": [
+            "2",
+            "11"
+        ]
+    },
+    {
+        "Estacao": "Bercy",
+        "Linha": [
+            "6",
+            "14"
+        ]
+    },
+    {
+        "Estacao": "Champs-Élysées – Clemenceau",
+        "Linha": [
+            "1",
+            "13"
+        ]
+    },
+    {
+        "Estacao": "Charles de Gaulle – Étoile",
+        "Linha": [
+            "1",
+            "2",
+            "6"
+        ]
+    },
+    {
+        "Estacao": "Château de Vincennes",
+        "Linha": [
+            "1"
+        ]
+    },
+    {
+        "Estacao": "Châtelet",
+        "Linha": [
+            "1",
+            "4",
+            "11",
+            "14"
+        ]
+    },
+    {
+        "Estacao": "Châtillon – Montrouge",
+        "Linha": [
+            "13"
+        ]
+    },
+    {
+        "Estacao": "Concorde",
+        "Linha": [
+            "1",
+            "12"
+        ]
+    },
+    {
+        "Estacao": "Denfert-Rochereau",
+        "Linha": [
+            "4",
+            "6"
+        ]
+    },
+    {
+        "Estacao": "Franklin D. Roosevelt",
+        "Linha": [
+            "1",
+            "9"
+        ]
+    },
+    {
+        "Estacao": "Gallieni",
+        "Linha": [
+            "3"
+        ]
+    },
+    {
+        "Estacao": "Gare de Lyon",
+        "Linha": [
+            "1",
+            "14"
+        ]
+    },
+    {
+        "Estacao": "Havre – Caumartin",
+        "Linha": [
+            "3",
+            "9"
+        ]
+    },
+    {
+        "Estacao": "Hôtel de Ville",
+        "Linha": [
+            "1",
+            "9",
+            "11"
+        ]
+    },
+    {
+        "Estacao": "Madeleine",
+        "Linha": [
+            "12",
+            "14"
+        ]
+    },
+    {
+        "Estacao": "Mairie d'Issy",
+        "Linha": [
+            "12"
+        ]
+    },
+    {
+        "Estacao": "Mairie de Montreuil",
+        "Linha": [
+            "9"
+        ]
+    },
+    {
+        "Estacao": "Mairie des Lilas",
+        "Linha": [
+            "11"
+        ]
+    },
+    {
+        "Estacao": "Marcadet – Poissonniers",
+        "Linha": [
+            "4",
+            "12"
+        ]
+    },
+    {
+        "Estacao": "Miromesnil",
+        "Linha": [
+            "9",
+            "13"
+        ]
+    },
+    {
+        "Estacao": "Montparnasse – Bienvenüe",
+        "Linha": [
+            "4",
+            "6",
+            "12",
+            "13"
+        ]
+    },
+    {
+        "Estacao": "Nation",
+        "Linha": [
+            "1",
+            "2",
+            "6",
+            "9"
+        ]
+    },
+    {
+        "Estacao": "Olympiades",
+        "Linha": [
+            "14"
+        ]
+    },
+    {
+        "Estacao": "Pasteur",
+        "Linha": [
+            "6",
+            "12"
+        ]
+    },
+    {
+        "Estacao": "Père Lachaise",
+        "Linha": [
+            "2",
+            "3"
+        ]
+    },
+    {
+        "Estacao": "Pigalle",
+        "Linha": [
+            "2",
+            "12"
+        ]
+    },
+    {
+        "Estacao": "Place de Clichy",
+        "Linha": [
+            "2",
+            "13"
+        ]
+    },
+    {
+        "Estacao": "Pont de Levallois – Bécon",
+        "Linha": [
+            "3"
+        ]
+    },
+    {
+        "Estacao": "Pont de Sèvres",
+        "Linha": [
+            "9"
+        ]
+    },
+    {
+        "Estacao": "Porte Dauphine",
+        "Linha": [
+            "2"
+        ]
+    },
+    {
+        "Estacao": "Porte de Clignancourt",
+        "Linha": [
+            "4"
+        ]
+    },
+    {
+        "Estacao": "Porte de la Chapelle",
+        "Linha": [
+            "12"
+        ]
+    },
+    {
+        "Estacao": "Raspail",
+        "Linha": [
+            "4",
+            "6"
+        ]
+    },
+    {
+        "Estacao": "Réaumur – Sébastopol",
+        "Linha": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "Estacao": "République",
+        "Linha": [
+            "3",
+            "9",
+            "11"
+        ]
+    },
+    {
+        "Estacao": "Saint-Denis – Université",
+        "Linha": [
+            "13"
+        ]
+    },
+    {
+        "Estacao": "Saint-Lazare",
+        "Linha": [
+            "3",
+            "12",
+            "13",
+            "14"
+        ]
+    },
+    {
+        "Estacao": "Strasbourg – Saint-Denis",
+        "Linha": [
+            "4",
+            "9"
+        ]
+    },
+    {
+        "Estacao": "Trocadéro",
+        "Linha": [
+            "6",
+            "9"
+        ]
+    },
+    {
+        "Estacao": "Villiers",
+        "Linha": [
+            "2",
+            "3"
+        ]
+    }
+]
