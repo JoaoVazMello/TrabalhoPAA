@@ -27,3 +27,54 @@ busca(atual, inicial, visitado, contador){
 
 Versao do breach and bound
 
+main(
+    melhor[] // dicionario contendo o melhor["maximo"], melhor["caminho"]
+    contador = 1 // vai ser igual a 1 pois ja conta a primeira estacao
+    inicial = raiz //escolhida pelo usuario
+    atual = inicial
+    caminho = [atual]
+    visitados[] = 0 // todas as posicoes recebendo 0
+    visitados[inicial] = 1
+    BuscaBreachAndBound(atual, inicial, visitado, contador, grafo, caminho, melhor)
+)
+
+buscaBreachAndBound(atual, inicial, visitado, contador, grafo, caminho, melhor){
+
+    if(atual possui aresta para o inicial){
+        if(contador > melhor["maximo"] E contador > 2){
+            melhor["maximo"] = contador
+            copia = cópia de caminho
+            copia.append(inicial)
+            melhor["caminho"] = copia
+        }
+    }
+
+    explorados = copia de visitados
+
+    restantes = contarAlcancaveis(atual, explorados, grafo)
+
+    UB = contador + restantes
+
+    se melhor["maximo"] >= UB
+        return
+
+    para cada vizinho de atual:
+    se visitado[vizinho] == 0:
+        visitado[vizinho] = 1
+        caminho.append(vizinho)
+        buscaBreachAndBound(vizinho, inicial, visitado, contador + 1, grafo, caminho, melhor)
+        visitado[vizinho] = 0
+        caminho.pop()
+}
+
+    ContarAlcancaveis(atual, explorados, grafo)
+
+        restantes = 0
+
+        para cada vizinho de atual:
+            se vizinho não foi explorado:
+                marcar vizinho
+
+                restantes = restantes + 1 + ContarAlcancaveis(vizinho, explorados, grafo)
+
+        retorna restantes

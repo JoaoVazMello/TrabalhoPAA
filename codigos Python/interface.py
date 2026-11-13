@@ -10,6 +10,7 @@ from tkinter import ttk, filedialog, messagebox, font
 dados_estacoes, dados_linhas = {}, []
 arquivos_carregados = {"estacoes": False, "linhas": False}
 posicoes, caminho_destacado = {}, []
+grafo = {}
 zoom, ajustado = 1.0, True
 regiao = (0, 0, 1, 1)
 
@@ -23,7 +24,7 @@ CORES = {
 FUNDO, BRANCO, TEXTO, CINZA = "#F2F5FA", "white", "#16243A", "#65758D"
 ESCURO, AZUL, ROXO, BORDA = "#142440", "#2962E2", "#8456D8", "#DCE4EF"
 
-#--------------------------------------------------------------------------------------------------------------------------------
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # --- MÓDULO DE DADOS E ARQUIVOS ---
 def carregar(tipo):
@@ -52,6 +53,8 @@ def carregar(tipo):
     status_label.config(text=f"Carregadas: {len(novos)}", fg="#16966C")
 
     if all(arquivos_carregados.values()):
+        grafo.clear()
+        grafo.update(construir_grafo())
         for b in (executar_btn, zoom_mais, zoom_menos, zoom_ajustar): 
             b.config(state="normal")
         caminho_destacado.clear()
@@ -64,7 +67,7 @@ def carregar(tipo):
         ]:
             combo_inicial.current(0)
 
-#--------------------------------------------------------------------------------------------------------------------------------q
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # --- MÓDULO DE IMPLEMNTAÇAO E ALGORTIMOS NO GRAFO ---
 
@@ -85,7 +88,7 @@ def construir_grafo():
         for estacao, vizinhos in grafo.items()
     }
 
-## PROBLEMA A)
+## ------------------------------------------ RESOLUÇÂO DO PROBLEMA A ------------------------------------------
 
 ## Implementaçao força bruta
 def forca_bruta(grafo, inicial):
@@ -115,11 +118,14 @@ def forca_bruta(grafo, inicial):
     ## ja colocando o inicial como visitado sempre
     visitados[atual] = True
     
+    ## chama a funçao que vai fazer a recursao
     busca(atual, inicial, visitados, contador, grafo, caminho, melhor)
     
     return melhor
 
+# Roda a busac efetivamente
 def busca(atual, inicial, visitados, contador, grafo, caminho, melhor):
+    # verifica o incial e vizinho do atual
     if(inicial in grafo[atual]):
         if(contador > melhor["maximo"] and contador > 2):
             ##salva o maximo obtido
@@ -131,7 +137,7 @@ def busca(atual, inicial, visitados, contador, grafo, caminho, melhor):
             # Guarde a cópia em melhor["caminho"]
             melhor["caminho"] = copia
               
-    
+    # verifica se ainda possuem vizinhos a serem explorados
     for vizinhos in grafo[atual]:
         if visitados[vizinhos] == False:
             visitados[vizinhos] = True
@@ -140,8 +146,102 @@ def busca(atual, inicial, visitados, contador, grafo, caminho, melhor):
             caminho.pop()
             visitados[vizinhos] = False
 
-#--------------------------------------------------------------------------------------------------------------------------------
+## Implementaçao Branch and Bound
 
+def BranchAndBound(grafo, inicial):
+
+    ## vetor auxiliar verificar se o vertice ja foi visitado
+    visitados = {}
+    
+    ## vetor auxiliar para ver o caminho que foi percorrido
+    caminho = [inicial]
+
+    ## Dicionario para guardar melhor caminho
+    melhor = {
+        "maximo": 0,
+        "caminho": []
+    }
+
+    ## preenchendo vetor todo com falso
+    for vertice in grafo:
+        visitados[vertice] = False
+
+    ## igual a 1 pois ja conta a primeira estacao
+    contador = 1
+    ## ponto inicial
+    raiz = inicial
+    ## onde comecou
+    atual = raiz
+    ## ja colocando o inicial como visitado sempre
+    visitados[atual] = True
+    
+    ## chama a funçao que vai fazer a recursao
+    buscaBranchAndBound(atual, inicial, visitados, contador, grafo, caminho, melhor)
+    
+    return melhor
+
+def buscaBranchAndBound(atual, inicial, visitados, contador, grafo, caminho, melhor):
+    # verifica o incial e vizinho do atual
+    if(inicial in grafo[atual]):
+        if(contador > melhor["maximo"] and contador > 2):
+            ##salva o maximo obtido
+            melhor["maximo"] = contador
+            # Crie uma cópia de caminho
+            copia = caminho.copy()
+            # Adicione a estação inicial à cópia
+            copia.append(inicial)
+            # Guarde a cópia em melhor["caminho"]
+            melhor["caminho"] = copia
+    
+    # copia dos que ainda nao foram visitados
+    explorados = visitados.copy()
+    
+    # Conta restante dos que ainda faltam para ser visitados
+    restantes = ContarAlcancaveis(atual, explorados, grafo)
+    
+    # calcula o upperBound
+    ub = contador + restantes
+    
+    # criterio de poda
+    if melhor["maximo"] >= ub:
+        return
+    
+    # verifica se ainda possuem vizinhos a serem explorados
+    for vizinhos in grafo[atual]:
+        if visitados[vizinhos] == False:
+            visitados[vizinhos] = True
+            caminho.append(vizinhos)
+            buscaBranchAndBound(vizinhos, inicial, visitados, contador + 1, grafo, caminho, melhor)
+            caminho.pop()
+            visitados[vizinhos] = False
+
+
+def ContarAlcancaveis(atual, explorados, grafo):
+    restantes = 0
+    
+    for vizinhos in grafo[atual]:
+        if explorados[vizinhos] == False:
+            explorados[vizinhos] = True
+            restantes = restantes + 1 + ContarAlcancaveis(vizinhos, explorados, grafo)
+    
+    return restantes
+
+
+## ------------------------------------------ FIM RESOLUÇÂO DO PROBLEMA A ------------------------------------------
+
+
+## coloquem as outras soluçoes aqui galerinha pra ficar organizadin
+
+## ------------------------------------------ RESOLUÇÂO DO PROBLEMA B ------------------------------------------
+
+## ------------------------------------------ FIM RESOLUÇÂO DO PROBLEMA B ------------------------------------------
+
+## ------------------------------------------ RESOLUÇÂO DO PROBLEMA C ------------------------------------------
+
+## ------------------------------------------ FIM RESOLUÇÂO DO PROBLEMA C ------------------------------------------
+
+
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # --- MÓDULO DE CÁLCULO DO GRAFO ---
 def calcular_posicoes():
@@ -193,8 +293,7 @@ def ponto(i):
     x, y = posicoes[i]
     return x * zoom, y * zoom
 
-#--------------------------------------------------------------------------------------------------------------------------------
-
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # --- MÓDULO DE RENDERIZAÇÃO DO CANVAS ---
 def desenhar_mapa():
@@ -254,9 +353,10 @@ def _desenhar_nomes_estacoes():
             ocupados.append(caixa)
             break
 
-#--------------------------------------------------------------------------------------------------------------------------------
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # --- CONTROLES DE ZOOM E VISUALIZAÇÃO ---
+
 def centralizar(x, y, cx, cy):
     x0, y0, x1, y1 = regiao
     canvas.xview_moveto((x - cx - x0) / max(1, x1 - x0))
@@ -304,18 +404,13 @@ def hover(_event):
                 detalhe.config(text=f"Estação: {dados_estacoes[i]['nome']}  (ID {i})")
                 break
 
-
-def simular_teste_unico(problema, algoritmo):
-    return (f"Situação: Simulação para testes de Interface\nAlgoritmo: {algoritmo} | Problema: {problema}\n"
-            "Estações visitadas: A -> B -> E -> C\nTempo de execução: 0.05 segundos"), [1, 2, 5, 3]
-
+##------------------ EXECUÇAO DOS ALGORTIMO ---------------------
 
 def executar_algoritmo():
     problema = combo_problema.get()
     algoritmo = var_algoritmo.get()
-
+    
     if problema.startswith("A") and algoritmo == "Força bruta":
-        grafo = construir_grafo()
         inicial = int(combo_inicial.get())
 
         inicio = perf_counter()
@@ -329,15 +424,27 @@ def executar_algoritmo():
             f"Caminho: {resultado['caminho']}\n"
             f"Tempo: {tempo:.6f} segundos"
         )
-    else:
-        texto, ids = simular_teste_unico(problema, algoritmo)
-        caminho_destacado[:] = ids
+    elif problema.startswith("A") and algoritmo == "Branch-and-bound":
+        inicial = int(combo_inicial.get())
+        
+        inicio = perf_counter()
+        resultado = BranchAndBound(grafo, inicial)
+        tempo = perf_counter() - inicio
+        
+        caminho_destacado[:] = resultado["caminho"]
+        
+        texto = (
+            f"Máximo de estações: {resultado['maximo']}\n"
+            f"Caminho: {resultado['caminho']}\n"
+            f"Tempo: {tempo:.6f} segundos"
+        )
 
     lbl_resultado.config(text=texto)
     desenhar_mapa()
     
-#--------------------------------------------------------------------------------------------------------------------------------
- 
+##---------------------------------------------------------------
+    
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # --- CONSTRUÇÃO DA INTERFACE GRÁFICA (UI) ---
 janela = tk.Tk()
@@ -469,3 +576,5 @@ resultado.bind("<Configure>", lambda e: lbl_resultado.config(wraplength=e.width-
 
 desenhar_mapa()
 janela.mainloop()
+
+#///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
